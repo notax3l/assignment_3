@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+}
+#main_div{
+    z-index: 0;
+    background-image: url(./img/jwbackground.jpg);
+    background-position: center; /*image in centre of page */
+    background-size: contain;
+    background-repeat: no-repeat; /*image will not repeat */
+    height: 700px; /*image is given a fixed height */
+}
+#blank_space{
+    height: 299px;
+}
+#main_div > div > h1{
+    font-family: 'Oswald', sans-serif; /*font family for my text*/
+    display: flex;
+    justify-content: center; /* used to centre content*/
+    align-items: center; /* also used to centre items*/
+    color: white;
+    letter-spacing: 4px; /* increase gap between letters */
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+}
+
+#logo{
+    height: 22px;
+}
+h2{
+
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bfd4dc;
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin-bottom: -1px;
+    margin-top: 0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+#content_1{
+    display: flex;
+    align-items: center; /* also used to centre items*/
+    justify-content: center; /* used to centre content*/
+    text-align: center;
+    color: #3f7489;
+    margin-top: -10px;
+}
+#content_1 > #div_6 >img{
+    display: inline-block; /* uses space with it has content in only */
+    height: 50px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+#content_1 > #div_9 >img{
+    display: inline-block;
+    height: 20px;/* aspect ratio is used for making images of same ratio*/
+    object-fit: contain;
+}
+
+
+a{
+    color: #3f7489;
+    font-size: 7px;
+    text-decoration: none; /* remove the line which is under the text*/
+}
+
+#logo{
+    height: 89px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+
+}
+
